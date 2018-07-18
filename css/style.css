@@ -1,7 +1,63 @@
-.logoempresa {
+/*
+* ==========================================================================
+* footer
+* ==========================================================================
+*/
+footer { 
+    display: block;
+    background-color:#4B4848;
+}
+
+.texto-footer {
+	color:white;
+}
+
+/*Botones Sociales */
+#social-icons{
+  font-size: 22px;
+}
+
+#social-icons .btn-group {
+    color: #55CBD2;
+    margin-right: 15px;
+}
+#social-icons .btn-group:hover {
+    color: #ffffff;
+}
+
+/*
+* ==========================================================================
+* Navbar
+* ==========================================================================
+*/
+
+/*Logo */
+.logo-empresa {
 	background-repeat:no-repeat;
 	height:50px;
 	width:50px;
 	background-position:center;
 }
 
+.active{
+  background:#4690B6 !important;
+  color: white;
+  box-shadow: 4px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+/*
+* ==========================================================================
+* Div
+* ==========================================================================
+*/
+.div-centrado {
+	text-align: center;
+}
+
+.div-color{
+	background:#4690B6 !important;
+}
+
+.general{
+    margin-top: 20px;
+}
