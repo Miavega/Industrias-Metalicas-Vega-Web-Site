@@ -14,6 +14,7 @@
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="lightbox/css/lightbox.min.css">
 		
 	</head>
 	<body>
@@ -39,7 +40,7 @@
 			        		<a class="nav-link" href="#" style="color:black">Galeria</a>
 			      		</li>
 			      		<li class="nav-item">
-			        		<a class="nav-link" href="#" style="color:black">Contacto</a>
+			        		<a class="nav-link" href="contacto.html" style="color:black">Contacto</a>
 			      		</li>
 			    	</ul>
 			  	</div>
@@ -57,9 +58,49 @@
   					</div>
 				</div>
 			</div>		
-		</section>
+		</section>	
 
-		
+		<!--Galeria-->
+		<div class="container general galeria">
+			<articles class="row">
+				<article class="col-md-3">
+					<a href="img/carrusel/slide1.jpg" data-lightbox="primer-producto" data-title="Regala">
+					<img src="img/carrusel/slide1.jpg" alt="Regala" class="img-thumbnail"></a>
+					<a href="img/carrusel/slide2.jpg" data-lightbox="primer-producto" data-title="Descansa"></a>
+					<a href="img/carrusel/slide3.jpg" data-lightbox="primer-producto" data-title="Empatiza"></a>					
+					<p>Plaza Central</p>
+				</article>
+				<article class="col-md-3">
+					<a href="img/carrusel/slide1.jpg" data-lightbox="segundo-producto" data-title="Regala">
+					<img src="img/carrusel/slide1.jpg" alt="Regala" class="img-thumbnail"></a>
+					<a href="img/carrusel/slide2.jpg" data-lightbox="segundo-producto" data-title="Descansa"></a>
+					<a href="img/carrusel/slide3.jpg" data-lightbox="segundo-producto" data-title="Empatiza"></a>					
+					<p>Cartagena</p>
+				</article>
+				<article class="col-md-3">
+					<a href="img/carrusel/slide1.jpg" data-lightbox="tercer-producto" data-title="Regala">
+					<img src="img/carrusel/slide1.jpg" alt="Regala" class="img-thumbnail"></a>
+					<a href="img/carrusel/slide2.jpg" data-lightbox="tercer-producto" data-title="Descansa"></a>
+					<a href="img/carrusel/slide3.jpg" data-lightbox="tercer-producto" data-title="Empatiza"></a>					
+					<p>Conecta</p>
+				</article>
+				<article class="col-md-3">
+					<a href="img/carrusel/slide1.jpg" data-lightbox="cuarto-producto" data-title="Regala">
+					<img src="img/carrusel/slide1.jpg" alt="Regala" class="img-thumbnail"></a>
+					<a href="img/carrusel/slide2.jpg" data-lightbox="cuarto-producto" data-title="Descansa"></a>
+					<a href="img/carrusel/slide3.jpg" data-lightbox="cuarto-producto" data-title="Empatiza"></a>					
+					<p>Javeriana</p>
+				</article>
+				<article class="col-md-3">
+					<a href="img/carrusel/slide1.jpg" data-lightbox="quinto-producto" data-title="Regala">
+					<img src="img/carrusel/slide1.jpg" alt="Regala" class="img-thumbnail"></a>
+					<a href="img/carrusel/slide2.jpg" data-lightbox="quinto-producto" data-title="Descansa"></a>
+					<a href="img/carrusel/slide3.jpg" data-lightbox="quinto-producto" data-title="Empatiza"></a>					
+					<p>Otros</p>
+				</article>
+			</articles>
+		</div>
+
 		<!--Footer-->
 		<footer class="texto-footer general">
 			<div class="container">
@@ -85,6 +126,13 @@
 
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="lightbox/js/lightbox.min.js"></script>
+
+		<script>
+			lightbox.option({
+				'albumLabel': "Imagen %1 de %2"
+			})
+		</script>
 
 	</body>
 </html>
